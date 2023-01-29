@@ -1,0 +1,34 @@
+2023-01-28T18:05:34+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:420
+Stack trace:
+#0 /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(420): ftp_nlist()
+#1 /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-base.php(229): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-base.php(58): WP_Filesystem_Base->find_folder()
+#3 /var/www/html/wordpress/wp-content/themes/luchiana/functions.php(1783): WP_Filesystem_Base->abspath()
+#4 /var/www/html/wordpress/wp-content/themes/luchiana/functions.php(75): ideapark_is_dir()
+#5 /var/www/html/wordpress/wp-includes/class-wp-hook.php(308): ideapark_setup()
+#6 /var/www/html/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/html/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/wordpress/wp-settings.php(595): do_action()
+#9 /var/www/html/wordpress/wp-config.php(96): require_once('...')
+#10 /var/www/html/wordpress/wp-load.php(50): require_once('...')
+#11 /var/www/html/wordpress/wp-cron.php(46): require_once('...')
+#12 {main}
+  thrown in /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 420
+
+2023-01-28T18:05:56+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:420
+Stack trace:
+#0 /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(420): ftp_nlist()
+#1 /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-base.php(229): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-base.php(58): WP_Filesystem_Base->find_folder()
+#3 /var/www/html/wordpress/wp-content/themes/luchiana/functions.php(1783): WP_Filesystem_Base->abspath()
+#4 /var/www/html/wordpress/wp-content/themes/luchiana/functions.php(75): ideapark_is_dir()
+#5 /var/www/html/wordpress/wp-includes/class-wp-hook.php(308): ideapark_setup()
+#6 /var/www/html/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/html/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/wordpress/wp-settings.php(595): do_action()
+#9 /var/www/html/wordpress/wp-config.php(96): require_once('...')
+#10 /var/www/html/wordpress/wp-load.php(50): require_once('...')
+#11 /var/www/html/wordpress/wp-login.php(12): require('...')
+#12 {main}
+  thrown in /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 420
+

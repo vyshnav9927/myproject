@@ -1,0 +1,40 @@
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+a.toplevel_page_wpmlm-admin-settings {
+	background: -moz-linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) !important;/* FF3.6+ */
+	background: -webkit-gradient (-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) !important;/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) !important;/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) !important;/* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) !important;/* IE10+ */
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) !important;/* W3C */
+
+    background-size: 400% 400% !important;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}

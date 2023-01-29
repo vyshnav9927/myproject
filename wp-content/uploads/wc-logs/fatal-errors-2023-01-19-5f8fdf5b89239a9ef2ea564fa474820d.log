@@ -1,0 +1,30 @@
+2023-01-19T10:00:46+00:00 CRITICAL Uncaught Error: Undefined constant "items" in /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce-wpmlm-unilevel/wpmlm-custom-functions.php:1019
+Stack trace:
+#0 /home/iossmlm/public_html/suneun/wp-includes/class-wp-hook.php(310): wpmlm_customized_woocommerce_menu(Array)
+#1 /home/iossmlm/public_html/suneun/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce/includes/wc-account-functions.php(130): apply_filters('woocommerce_acc...', Array, Array)
+#3 /home/iossmlm/public_html/suneun/wp-content/themes/luchiana/woocommerce/myaccount/navigation.php(28): wc_get_account_menu_items()
+#4 /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/iossmlm/p...')
+#5 /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3183): wc_get_template('myaccount/navig...')
+#6 /home/iossmlm/public_html/suneun/wp-includes/class-wp-hook.php(308): woocommerce_account_navigation('')
+#7 /home/iossmlm/public_html/suneun/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 /home/iossmlm/public_html/suneun/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/iossmlm/public_html/suneun/wp-content/themes/luchiana/woocommerce/myaccount/my-account.php(28): do_action('woocommerce_acc...')
+#10 /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/iossmlm/p...')
+#11 /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#12 /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#13 /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#14 /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#15 /home/iossmlm/public_html/suneun/wp-includes/shortcodes.php(355): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#16 [internal function]: do_shortcode_tag(Array)
+#17 /home/iossmlm/public_html/suneun/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#18 /home/iossmlm/public_html/suneun/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_my...')
+#19 /home/iossmlm/public_html/suneun/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#20 /home/iossmlm/public_html/suneun/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#21 /home/iossmlm/public_html/suneun/wp-content/themes/luchiana/singular.php(55): the_content()
+#22 /home/iossmlm/public_html/suneun/wp-includes/template-loader.php(106): include('/home/iossmlm/p...')
+#23 /home/iossmlm/public_html/suneun/wp-blog-header.php(19): require_once('/home/iossmlm/p...')
+#24 /home/iossmlm/public_html/suneun/index.php(17): require('/home/iossmlm/p...')
+#25 {main}
+  thrown in /home/iossmlm/public_html/suneun/wp-content/plugins/woocommerce-wpmlm-unilevel/wpmlm-custom-functions.php on line 1019
+
